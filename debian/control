@@ -1,0 +1,41 @@
+Source: rime-bopomofo
+Section: utils
+Priority: optional
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Uploaders:
+ Boyuan Yang <byang@debian.org>,
+Build-Depends:
+ debhelper-compat (= 13),
+ librime-bin (>= 1.7.3+dfsg1-2~),
+ rime-essay,
+ rime-prelude,
+ rime-data-terra-pinyin,
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Homepage: https://github.com/rime/rime-bopomofo
+Vcs-Git: https://salsa.debian.org/input-method-team/rime-bopomofo.git
+Vcs-Browser: https://salsa.debian.org/input-method-team/rime-bopomofo
+
+Package: rime-data-bopomofo
+Architecture: any
+Depends:
+ ${misc:Depends},
+ rime-data-cangjie5,
+ rime-data-terra-pinyin,
+Breaks:
+ librime-data-bopomofo,
+Replaces:
+ librime-data-bopomofo,
+Provides:
+ librime-data-bopomofo,
+Description: Rime Input Method Engine schema data - Bopomofo (Zhuyin)
+ RIME is the acronym of Rime Input Method Engine.
+ .
+ RIME is a lightweight, extensible input method engine supporting various input
+ schemas including glyph-based input methods, romanization-based input methods
+ as well as those for Chinese dialects. It has the ability to compose phrases
+ and sentences intelligently and provide very accurate traditional Chinese
+ output. RIME's cross-platform core library is written in C++, and can work
+ consistently on different platforms with OS-specific wrappers.
+ .
+ This package provides the bopomofo (zhuyin) schema data of RIME.

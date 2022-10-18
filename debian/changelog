@@ -1,0 +1,23 @@
+rime-bopomofo (0.0~git20210131.c7618f4-3) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Input Method Team <debian-input-method@lists.debian.org>  Fri, 22 Apr 2022 19:35:12 +0800
+
+rime-bopomofo (0.0~git20210131.c7618f4-3) unstable; urgency=high
+
+  * Fix incorrect binary package type: arch:all -> arch:any. 
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 15 Feb 2022 15:15:22 -0500
+
+rime-bopomofo (0.0~git20210131.c7618f4-2) unstable; urgency=medium
+
+  * Source-only upload.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 09 Feb 2022 18:58:32 -0500
+
+rime-bopomofo (0.0~git20210131.c7618f4-1) unstable; urgency=medium
+
+  * Initial upload. (Closes: #1001929)
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 18 Dec 2021 23:09:23 -0500

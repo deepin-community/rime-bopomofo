@@ -1,0 +1,3 @@
+build/bopomofo* usr/share/rime-data/build/
+bopomofo*.yaml usr/share/rime-data/
+zhuyin.yaml usr/share/rime-data/
